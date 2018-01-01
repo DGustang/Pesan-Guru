@@ -53,7 +53,7 @@ class Home extends Component {
                     <div className="data-mentor">
                         <div className="card data-mentor-cover">
                             <div className="card-header data-mentor-cover-header">
-                                <h3 className="mb-0">Rekomendasi Mentor</h3>
+                                <h3 className="mb-3">Rekomendasi Mentor</h3>
                             </div>
 
                             <div className="row">

@@ -28194,7 +28194,7 @@ var Home = function (_Component) {
                                 { className: 'card-header data-mentor-cover-header' },
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                     'h3',
-                                    { className: 'mb-0' },
+                                    { className: 'mb-3' },
                                     'Rekomendasi Mentor'
                                 )
                             ),
