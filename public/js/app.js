@@ -28185,7 +28185,7 @@ var Home = function (_Component) {
                     { className: 'container' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
-                        { className: 'data-mentor' },
+                        { className: 'data-mentor mb-5' },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             'div',
                             { className: 'card data-mentor-cover' },
@@ -28290,15 +28290,231 @@ var Home = function (_Component) {
                                                             null,
                                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                                 'td',
-                                                                null,
+                                                                { className: 'data-city' },
                                                                 'Makassar & Sekitarnya'
                                                             ),
                                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                                 'td',
-                                                                { width: 150 },
+                                                                { width: 150, className: 'btn-action' },
                                                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                                     'a',
-                                                                    { href: '', className: 'btn btn-block btn-primary' },
+                                                                    { href: '', className: 'btn btn-block btn-success' },
+                                                                    'Lihat Detail'
+                                                                )
+                                                            )
+                                                        )
+                                                    )
+                                                )
+                                            )
+                                        )
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'div',
+                                    { className: 'col-4' },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'a',
+                                        { href: '', className: 'card-link' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'div',
+                                            { className: 'card' },
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'div',
+                                                { className: 'card-header' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'div',
+                                                    { className: 'd-flex' },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                        'div',
+                                                        { className: 'p-0' },
+                                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                            'div',
+                                                            { className: 'badge-verificated' },
+                                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                                'span',
+                                                                { className: 'badge badge-pill badge-primary' },
+                                                                'Terverifikasi'
+                                                            )
+                                                        )
+                                                    ),
+                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                        'div',
+                                                        { className: 'ml-auto' },
+                                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                            'div',
+                                                            { className: 'badge-ratings' },
+                                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                                'span',
+                                                                { className: 'badge badge-pill badge-danger' },
+                                                                '3.2'
+                                                            )
+                                                        )
+                                                    )
+                                                )
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'div',
+                                                { className: 'card-body' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'div',
+                                                    { className: 'media' },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_1__public_images_components_tagline_svg___default.a, className: 'align-self-center mr-3' }),
+                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                        'div',
+                                                        { className: 'media-body' },
+                                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                            'h5',
+                                                            { className: 'mb-1' },
+                                                            'Gustang Zephys'
+                                                        ),
+                                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                            'p',
+                                                            { className: 'text-uppercase mb-0' },
+                                                            'matematika -sd, fisika, ipa, smp, berenang, main basket'
+                                                        )
+                                                    )
+                                                )
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'div',
+                                                { className: 'card-footer tagline-teachers' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'p',
+                                                    { className: 'mb-0' },
+                                                    'Saya akan bantu adik dalam belajar fisika, matematika & motivasi, supaya mendapatkan prestasi yang cemerlang agar dapat menggapai cita-cita.'
+                                                )
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'div',
+                                                { className: 'card-footer data-action' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'table',
+                                                    { className: 'table table-sm m-0' },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                        'tbody',
+                                                        null,
+                                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                            'tr',
+                                                            null,
+                                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                                'td',
+                                                                { className: 'data-city' },
+                                                                'Makassar & Sekitarnya'
+                                                            ),
+                                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                                'td',
+                                                                { width: 150, className: 'btn-action' },
+                                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                                    'a',
+                                                                    { href: '', className: 'btn btn-block btn-success' },
+                                                                    'Lihat Detail'
+                                                                )
+                                                            )
+                                                        )
+                                                    )
+                                                )
+                                            )
+                                        )
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'div',
+                                    { className: 'col-4' },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'a',
+                                        { href: '', className: 'card-link' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'div',
+                                            { className: 'card' },
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'div',
+                                                { className: 'card-header' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'div',
+                                                    { className: 'd-flex' },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                        'div',
+                                                        { className: 'p-0' },
+                                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                            'div',
+                                                            { className: 'badge-verificated' },
+                                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                                'span',
+                                                                { className: 'badge badge-pill badge-primary' },
+                                                                'Terverifikasi'
+                                                            )
+                                                        )
+                                                    ),
+                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                        'div',
+                                                        { className: 'ml-auto' },
+                                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                            'div',
+                                                            { className: 'badge-ratings' },
+                                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                                'span',
+                                                                { className: 'badge badge-pill badge-danger' },
+                                                                '3.2'
+                                                            )
+                                                        )
+                                                    )
+                                                )
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'div',
+                                                { className: 'card-body' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'div',
+                                                    { className: 'media' },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_1__public_images_components_tagline_svg___default.a, className: 'align-self-center mr-3' }),
+                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                        'div',
+                                                        { className: 'media-body' },
+                                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                            'h5',
+                                                            { className: 'mb-1' },
+                                                            'Gustang Zephys'
+                                                        ),
+                                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                            'p',
+                                                            { className: 'text-uppercase mb-0' },
+                                                            'matematika -sd, fisika, ipa, smp, berenang, main basket'
+                                                        )
+                                                    )
+                                                )
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'div',
+                                                { className: 'card-footer tagline-teachers' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'p',
+                                                    { className: 'mb-0' },
+                                                    'Saya akan bantu adik dalam belajar fisika, matematika & motivasi, supaya mendapatkan prestasi yang cemerlang agar dapat menggapai cita-cita.'
+                                                )
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'div',
+                                                { className: 'card-footer data-action' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'table',
+                                                    { className: 'table table-sm m-0' },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                        'tbody',
+                                                        null,
+                                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                            'tr',
+                                                            null,
+                                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                                'td',
+                                                                { className: 'data-city' },
+                                                                'Makassar & Sekitarnya'
+                                                            ),
+                                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                                'td',
+                                                                { width: 150, className: 'btn-action' },
+                                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                                    'a',
+                                                                    { href: '', className: 'btn btn-block btn-success' },
                                                                     'Lihat Detail'
                                                                 )
                                                             )

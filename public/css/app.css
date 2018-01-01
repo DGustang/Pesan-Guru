@@ -11321,6 +11321,7 @@ a.text-dark:hover {
 .data-mentor .data-mentor-cover .card-link .card {
   -webkit-box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15), 0 5px 5px rgba(0, 0, 0, 0.12);
           box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15), 0 5px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 0px;
   border: none;
 }
 
@@ -11333,6 +11334,7 @@ a.text-dark:hover {
 }
 
 .data-mentor .data-mentor-cover .card-link .card .card-header .badge-verificated .badge {
+  background: #8191bf;
   border-radius: 0px;
   border-bottom-right-radius: 50px;
   padding: 12px 30px;
@@ -11340,6 +11342,7 @@ a.text-dark:hover {
 }
 
 .data-mentor .data-mentor-cover .card-link .card .card-header .badge-ratings .badge {
+  background: #CE8238;
   border-radius: 0px;
   border-bottom-left-radius: 50px;
   padding: 12px 30px;
@@ -11378,6 +11381,7 @@ a.text-dark:hover {
 
 .data-mentor .data-mentor-cover .card-link .card .data-action {
   padding: 10px;
+  border-radius: 0px;
   border-top: 1px dotted #d3d1d0;
   background: transparent;
 }
@@ -11385,6 +11389,12 @@ a.text-dark:hover {
 .data-mentor .data-mentor-cover .card-link .card .data-action .table td {
   border: none;
   padding: 0;
+}
+
+.data-mentor .data-mentor-cover .card-link .card .data-action .table td.data-city {
+  color: #212121;
+  font-size: 14px;
+  opacity: .5;
 }
 
 .data-mentor .data-mentor-cover .card-link .card .data-action .table td .btn {

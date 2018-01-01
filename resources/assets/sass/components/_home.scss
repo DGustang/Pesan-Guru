@@ -65,7 +65,11 @@
     & .card-link {
       & .card {
         box-shadow: 0 7px 14px rgba(0,0,0,0.15), 0 5px 5px rgba(0,0,0,0.12);
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
         border: none;
+
         & .card-header {
           -webkit-border-radius: 0px;
           -moz-border-radius: 0px;
@@ -77,6 +81,7 @@
 
           & .badge-verificated {
             & .badge {
+              background: $brand-info;
               -webkit-border-radius: 0px;
               -moz-border-radius: 0px;
               border-radius: 0px;
@@ -87,6 +92,7 @@
           }
           & .badge-ratings {
             & .badge {
+              background: $brand-warning;
               -webkit-border-radius: 0px;
               -moz-border-radius: 0px;
               border-radius: 0px;
@@ -132,6 +138,9 @@
 
         & .data-action {
           padding: 10px;
+          -webkit-border-radius: 0px;
+          -moz-border-radius: 0px;
+          border-radius: 0px;
           border-top: 1px dotted $brand-border;
           background: transparent;
 
@@ -139,6 +148,12 @@
             & td {
               border: none;
               padding: 0;
+
+              &.data-city {
+                color: $brand-black;
+                font-size: 14px;
+                opacity: .5;
+              }
 
               & .btn {
                 font-size: 14px;
