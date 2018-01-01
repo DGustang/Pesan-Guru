@@ -11401,3 +11401,27 @@ a.text-dark:hover {
   font-size: 14px;
 }
 
+.data-categories .data-categories-cover {
+  border-radius: 0px;
+  border: none;
+}
+
+.data-categories .data-categories-cover .data-categories-cover-header {
+  border-radius: 0px;
+  background: transparent;
+  border: none;
+  padding-left: 0;
+}
+
+.data-categories .data-categories-cover .table td {
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.data-categories .data-categories-cover .table td.data-sd .nav-item {
+  background: #CE8238;
+  color: #ffffff;
+}
+

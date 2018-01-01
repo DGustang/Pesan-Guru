@@ -5,20 +5,21 @@ import  $ from "jquery"
 import "select2"
 
 class Home extends Component {
-    componentDidMount(){
+    componentDidMount() {
         $("#jenjang").select2({
             theme: "bootstrap"
         });
     }
-    render(){
-        return(
+
+    render() {
+        return (
             <div>
                 <div className="container">
                     <div className="row align-items-center data-tagline">
                         <div className="col-10 data-tagline-item">
                             <div className="card">
                                 <div className="card-body">
-                                    <img src={Tagline} className="mx-auto d-block mb-3" />
+                                    <img src={Tagline} className="mx-auto d-block mb-3"/>
 
                                     <h3 className="tagline">
                                         Cari Guru Privat dengan kualitas terbaik & <br /> berpengalaman!
@@ -35,7 +36,8 @@ class Home extends Component {
                                                 </select>
                                             </td>
                                             <td>
-                                                <input className="form-control form-control-lg" type="search" placeholder="Coba 'Guru Matematika' " aria-label="Search" />
+                                                <input className="form-control form-control-lg" type="search"
+                                                       placeholder="Coba 'Guru Matematika' " aria-label="Search"/>
                                             </td>
                                             <td width={150}>
                                                 <a href="" className="btn btn-lg btn-block btn-primary">Cari</a>
@@ -77,7 +79,7 @@ class Home extends Component {
 
                                             <div className="card-body">
                                                 <div className="media">
-                                                    <img src={Tagline} className="align-self-center mr-3" />
+                                                    <img src={Tagline} className="align-self-center mr-3"/>
                                                     <div className="media-body">
                                                         <h5 className="mb-1">Gustang Zephys</h5>
                                                         <p className="text-uppercase mb-0">
@@ -89,7 +91,9 @@ class Home extends Component {
 
                                             <div className="card-footer tagline-teachers">
                                                 <p className="mb-0">
-                                                    Saya akan bantu adik dalam belajar fisika, matematika & motivasi, supaya mendapatkan prestasi yang cemerlang agar dapat menggapai cita-cita.
+                                                    Saya akan bantu adik dalam belajar fisika, matematika & motivasi,
+                                                    supaya mendapatkan prestasi yang cemerlang agar dapat menggapai
+                                                    cita-cita.
                                                 </p>
                                             </div>
 
@@ -101,7 +105,8 @@ class Home extends Component {
                                                             Makassar & Sekitarnya
                                                         </td>
                                                         <td width={150} className="btn-action">
-                                                            <a href="" className="btn btn-block btn-success">Lihat Detail</a>
+                                                            <a href="" className="btn btn-block btn-success">Lihat
+                                                                Detail</a>
                                                         </td>
                                                     </tr>
                                                     </tbody>
@@ -131,7 +136,7 @@ class Home extends Component {
 
                                             <div className="card-body">
                                                 <div className="media">
-                                                    <img src={Tagline} className="align-self-center mr-3" />
+                                                    <img src={Tagline} className="align-self-center mr-3"/>
                                                     <div className="media-body">
                                                         <h5 className="mb-1">Gustang Zephys</h5>
                                                         <p className="text-uppercase mb-0">
@@ -143,7 +148,9 @@ class Home extends Component {
 
                                             <div className="card-footer tagline-teachers">
                                                 <p className="mb-0">
-                                                    Saya akan bantu adik dalam belajar fisika, matematika & motivasi, supaya mendapatkan prestasi yang cemerlang agar dapat menggapai cita-cita.
+                                                    Saya akan bantu adik dalam belajar fisika, matematika & motivasi,
+                                                    supaya mendapatkan prestasi yang cemerlang agar dapat menggapai
+                                                    cita-cita.
                                                 </p>
                                             </div>
 
@@ -155,7 +162,8 @@ class Home extends Component {
                                                             Makassar & Sekitarnya
                                                         </td>
                                                         <td width={150} className="btn-action">
-                                                            <a href="" className="btn btn-block btn-success">Lihat Detail</a>
+                                                            <a href="" className="btn btn-block btn-success">Lihat
+                                                                Detail</a>
                                                         </td>
                                                     </tr>
                                                     </tbody>
@@ -185,7 +193,7 @@ class Home extends Component {
 
                                             <div className="card-body">
                                                 <div className="media">
-                                                    <img src={Tagline} className="align-self-center mr-3" />
+                                                    <img src={Tagline} className="align-self-center mr-3"/>
                                                     <div className="media-body">
                                                         <h5 className="mb-1">Gustang Zephys</h5>
                                                         <p className="text-uppercase mb-0">
@@ -197,7 +205,9 @@ class Home extends Component {
 
                                             <div className="card-footer tagline-teachers">
                                                 <p className="mb-0">
-                                                    Saya akan bantu adik dalam belajar fisika, matematika & motivasi, supaya mendapatkan prestasi yang cemerlang agar dapat menggapai cita-cita.
+                                                    Saya akan bantu adik dalam belajar fisika, matematika & motivasi,
+                                                    supaya mendapatkan prestasi yang cemerlang agar dapat menggapai
+                                                    cita-cita.
                                                 </p>
                                             </div>
 
@@ -209,7 +219,8 @@ class Home extends Component {
                                                             Makassar & Sekitarnya
                                                         </td>
                                                         <td width={150} className="btn-action">
-                                                            <a href="" className="btn btn-block btn-success">Lihat Detail</a>
+                                                            <a href="" className="btn btn-block btn-success">Lihat
+                                                                Detail</a>
                                                         </td>
                                                     </tr>
                                                     </tbody>
@@ -222,6 +233,49 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
+
+                <div className="container">
+                    <div className="data-categories mb-5">
+                        <div className="card data-categories-cover">
+                            <div className="card-header data-categories-cover-header">
+                                <h3 className="text-center mb-3">Jenis Paket</h3>
+                            </div>
+
+                            <table className="table table-sm m-0">
+                                <tbody>
+                                <tr>
+                                    <td className="data-sd">
+                                        <a className="nav-item nav-link" href="#">
+                                            Sekolah Dasar (SD)
+                                        </a>
+                                    </td>
+                                    <td className="data-smp">
+                                        <a className="nav-item nav-link" href="#">
+                                            Sekolah Menengah Pertama (SMP)
+                                        </a>
+                                    </td>
+                                    <td className="data-smk">
+                                        <a className="nav-item nav-link" href="#">
+                                            Sekolah Menengah Atas/Kejuruan (SMK)
+                                        </a>
+                                    </td>
+                                    <td className="data-kuliah">
+                                        <a className="nav-item nav-link" href="#">
+                                            Perguruan Tinggi (KULIAH)
+                                        </a>
+                                    </td>
+                                    <td className="data-nonformal">
+                                        <a className="nav-item nav-link" href="#">
+                                            Pedidikan Non-Formal (Musik, Olahraga, Dll)
+                                        </a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         )
     }
