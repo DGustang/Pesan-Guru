@@ -14,9 +14,6 @@
     @include('./partials/navbar')
 
     @yield('app')
-
     <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
-    <script>
-    </script>
     </body>
 </html>

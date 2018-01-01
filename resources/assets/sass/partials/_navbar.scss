@@ -25,6 +25,7 @@
 
 .data-mainbar {
   background: $brand-white;
+  border-bottom: 1px solid $brand-border;
 
   & .navbar {
     & .navbar-brand {

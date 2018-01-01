@@ -10554,14 +10554,14 @@ a.text-dark:hover {
 .select2-container--bootstrap .select2-selection {
   background-color: #fff;
   border: 1px solid #d3d1d0;
-  border-radius: 2px;
+  border-radius: 4px;
   color: #555555;
   font-size: 12px;
   outline: 0;
 }
 
 .select2-container--bootstrap .select2-selection.form-control {
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .select2-container--bootstrap .select2-search--dropdown .select2-search__field {
@@ -10777,6 +10777,7 @@ a.text-dark:hover {
 }
 
 .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+  background: url(/fonts/chevrondown.svg?c66b213d1dfff391c61146727032f068) !important;
   background-repeat: no-repeat !important;
   background-size: 100% !important;
   height: 18px;
@@ -10784,7 +10785,7 @@ a.text-dark:hover {
   margin-left: -10px;
   margin-top: 0px;
   position: absolute;
-  top: 28%;
+  top: 30%;
   width: 18px;
   opacity: .7;
 }
@@ -10792,7 +10793,7 @@ a.text-dark:hover {
 .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
   color: #303030;
   padding: 0;
-  font-weight: 500;
+  text-align: left;
 }
 
 .select2-container--bootstrap .select2-selection--single .select2-selection__placeholder {
@@ -10838,7 +10839,7 @@ a.text-dark:hover {
   color: #555555;
   background: #fff;
   border: 1px solid #d3d1d0;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: default;
   float: left;
   margin: 5px 0 0 6px;
@@ -10873,7 +10874,7 @@ a.text-dark:hover {
 .select2-container--bootstrap .select2-selection--single.input-sm,
 .input-group-sm .select2-container--bootstrap .select2-selection--single,
 .form-group-sm .select2-container--bootstrap .select2-selection--single {
-  border-radius: 2px;
+  border-radius: 4px;
   font-size: 12px;
   height: 30px;
   line-height: 1.5;
@@ -10891,7 +10892,7 @@ a.text-dark:hover {
 .input-group-sm .select2-container--bootstrap .select2-selection--multiple,
 .form-group-sm .select2-container--bootstrap .select2-selection--multiple {
   min-height: 30px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .select2-container--bootstrap .select2-selection--multiple.input-sm .select2-selection__choice,
@@ -10921,7 +10922,7 @@ a.text-dark:hover {
 .select2-container--bootstrap .select2-selection--single.input-lg,
 .input-group-lg .select2-container--bootstrap .select2-selection--single,
 .form-group-lg .select2-container--bootstrap .select2-selection--single {
-  border-radius: 2px;
+  border-radius: 4px;
   font-size: 18px;
   height: 46px;
   line-height: 1.3333333;
@@ -10948,7 +10949,7 @@ a.text-dark:hover {
 .input-group-lg .select2-container--bootstrap .select2-selection--multiple,
 .form-group-lg .select2-container--bootstrap .select2-selection--multiple {
   min-height: 46px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .select2-container--bootstrap .select2-selection--multiple.input-lg .select2-selection__choice,
@@ -10956,7 +10957,7 @@ a.text-dark:hover {
 .form-group-lg .select2-container--bootstrap .select2-selection--multiple .select2-selection__choice {
   font-size: 18px;
   line-height: 1.3333333;
-  border-radius: 2px;
+  border-radius: 4px;
   margin: 9px 0 0 8px;
   padding: 0 10px;
 }
@@ -11229,10 +11230,11 @@ a.text-dark:hover {
 
 .data-mainbar {
   background: #ffffff;
+  border-bottom: 1px solid #d3d1d0;
 }
 
 .data-mainbar .navbar .navbar-brand {
-  border-right: 1px solid #e3e1e0;
+  border-right: 1px solid #d3d1d0;
   padding-right: 22px;
 }
 
@@ -11278,6 +11280,32 @@ a.text-dark:hover {
   height: 150px;
 }
 
+.data-tagline .data-tagline-item .card .card-body .table td {
+  border: none;
+}
+
+.data-tagline .data-tagline-item .card .card-body .table td .form-control {
+  font-size: 14px;
+  height: 48px;
+  border-color: #d3d1d0;
+}
+
+.data-tagline .data-tagline-item .card .card-body .table td .select2-container--bootstrap .select2-selection--single {
+  height: 48px;
+  padding: 13px 24px 8px 12px;
+}
+
+.data-tagline .data-tagline-item .card .card-body .table td .select2-container--bootstrap .select2-selection {
+  font-size: 14px;
+  opacity: .75;
+}
+
+.data-tagline .data-tagline-item .card .card-body .table td .btn {
+  font-size: 14px;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
 .data-mentor .data-mentor-cover {
   border-radius: 0px;
   border: none;
@@ -11288,6 +11316,12 @@ a.text-dark:hover {
   background: transparent;
   border: none;
   padding-left: 0;
+}
+
+.data-mentor .data-mentor-cover .card-link .card {
+  -webkit-box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15), 0 5px 5px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15), 0 5px 5px rgba(0, 0, 0, 0.12);
+  border: none;
 }
 
 .data-mentor .data-mentor-cover .card-link .card .card-header {
@@ -11344,7 +11378,7 @@ a.text-dark:hover {
 
 .data-mentor .data-mentor-cover .card-link .card .data-action {
   padding: 10px;
-  border-top: 1px dotted #e3e1e0;
+  border-top: 1px dotted #d3d1d0;
   background: transparent;
 }
 

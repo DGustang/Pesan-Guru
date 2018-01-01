@@ -1,15 +1,21 @@
 import React, {Component} from 'react';
 import Tagline from '../../../../public/images/components/tagline.svg';
 
-
+import  $ from "jquery"
+import "select2"
 
 class Home extends Component {
+    componentDidMount(){
+        $("#jenjang").select2({
+            theme: "bootstrap"
+        });
+    }
     render(){
         return(
             <div>
                 <div className="container">
                     <div className="row align-items-center data-tagline">
-                        <div className="col-7 data-tagline-item">
+                        <div className="col-10 data-tagline-item">
                             <div className="card">
                                 <div className="card-body">
                                     <img src={Tagline} className="mx-auto d-block mb-3" />
@@ -18,15 +24,25 @@ class Home extends Component {
                                         Cari Guru Privat dengan kualitas terbaik & <br /> berpengalaman!
                                     </h3>
 
-                                    <form className="form-inline mt-5">
-                                        <select classID="jenjang" name="" className="form-control mr-sm-2">
-                                            <option value="0">
-                                                Pilih nominal...
-                                            </option>
-                                        </select>
-                                        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                                    </form>
+                                    <table className="table table-sm mb-0 mt-5">
+                                        <tbody>
+                                        <tr>
+                                            <td width={300}>
+                                                <select id="jenjang" name="" className="form-control">
+                                                    <option value="0">
+                                                        Pilih Jenjang Pendidikan
+                                                    </option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input className="form-control form-control-lg" type="search" placeholder="Coba 'Guru Matematika' " aria-label="Search" />
+                                            </td>
+                                            <td width={150}>
+                                                <a href="" className="btn btn-lg btn-block btn-primary">Cari</a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>

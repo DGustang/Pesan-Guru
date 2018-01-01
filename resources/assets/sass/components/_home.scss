@@ -12,6 +12,34 @@
         & img {
           height: 150px;
         }
+
+        & .table {
+          & td {
+            border: none;
+
+            & .form-control {
+              font-size: 14px;
+              height: 48px;
+              border-color: $brand-border;
+            }
+
+            & .select2-container--bootstrap .select2-selection--single {
+              height: 48px;
+              padding: 13px 24px 8px 12px;
+            }
+
+            & .select2-container--bootstrap .select2-selection {
+              font-size: 14px;
+              opacity: .75;
+            }
+
+            & .btn {
+              font-size: 14px;
+              padding: 12px;
+              text-transform: uppercase;
+            }
+          }
+        }
       }
     }
   }
@@ -36,6 +64,8 @@
 
     & .card-link {
       & .card {
+        box-shadow: 0 7px 14px rgba(0,0,0,0.15), 0 5px 5px rgba(0,0,0,0.12);
+        border: none;
         & .card-header {
           -webkit-border-radius: 0px;
           -moz-border-radius: 0px;
