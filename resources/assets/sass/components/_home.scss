@@ -183,21 +183,33 @@
     }
 
     & .table {
-      & td {
-        border: none;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 14px;
+      & tr {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
 
-        &.data-sd {
-          & .nav-item {
-            background: #CE8238;
-            color: #ffffff;
+        & td {
+          -webkit-box-flex : 1;
+          -webkit-flex: 1 1 100%;
+          -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+          display: flex;
+          border: none;
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 14px;
+
+          &.data-sd {
+            & .nav-item {
+              background: #CE8238;
+              color: #ffffff;
+            }
           }
+          &.data-smp {}
+          &.data-smk {}
+          &.data-kuliah {}
         }
-        &.data-smp {}
-        &.data-smk {}
-        &.data-kuliah {}
       }
     }
   }
